@@ -2,9 +2,9 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:11b25d06e90c903ee91a9737ec434a8c906f5a294e39a22c0d3a11812924be21`
+- Image ID: `sha256:10540c1074154a7400fce6f045362a5b19fec4398ccad016970d22c8bc5d091a`
 - Created: `2025-01-14T08:39:14Z`
-- Virtual Size: ~ 199.68 Mb  
+- Virtual Size: ~ 199.42 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Entrypoint: `["/docker-entrypoint.sh"]`
@@ -17,10 +17,10 @@
   - `PHP_CPPFLAGS=-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64`
   - `PHP_LDFLAGS=-Wl,-O1 -pie`
   - `GPG_KEYS=AFD8691FDAEDF03BDF6E460563F15A9B715376CA 9D7F99A0CB8F05C8A6958D6256A97AF7600A39A6 0616E93D95AF471243E26761770426E17EBBB3DD`
-  - `PHP_VERSION=8.4.5`
-  - `PHP_URL=https://www.php.net/distributions/php-8.4.5.tar.xz`
-  - `PHP_ASC_URL=https://www.php.net/distributions/php-8.4.5.tar.xz.asc`
-  - `PHP_SHA256=0d3270bbce4d9ec617befce52458b763fd461d475f1fe2ed878bb8573faed327`
+  - `PHP_VERSION=8.4.6`
+  - `PHP_URL=https://www.php.net/distributions/php-8.4.6.tar.xz`
+  - `PHP_ASC_URL=https://www.php.net/distributions/php-8.4.6.tar.xz.asc`
+  - `PHP_SHA256=089b08a5efef02313483325f3bacd8c4fe311cf1e1e56749d5cc7d059e225631`
   - `COMPOSER_ALLOW_SUPERUSER=1`
   - `COMPOSER_HOME=/tmp`
   - `COMPOSER_VERSION=2.2.25`
@@ -268,16 +268,16 @@ GPL-2.0-only
 ### `apk` package: `c-ares`
 
 ```console
-c-ares-1.34.3-r0 description:
+c-ares-1.34.5-r0 description:
 Asynchronous DNS/names resolver library
 
-c-ares-1.34.3-r0 webpage:
+c-ares-1.34.5-r0 webpage:
 https://c-ares.org/
 
-c-ares-1.34.3-r0 installed size:
-229 KiB
+c-ares-1.34.5-r0 installed size:
+233 KiB
 
-c-ares-1.34.3-r0 license:
+c-ares-1.34.5-r0 license:
 MIT
 
 ```
@@ -387,16 +387,16 @@ GPL-3.0-or-later
 ### `apk` package: `curl`
 
 ```console
-curl-8.12.1-r0 description:
+curl-8.12.1-r1 description:
 URL retrival utility and library
 
-curl-8.12.1-r0 webpage:
+curl-8.12.1-r1 webpage:
 https://curl.se/
 
-curl-8.12.1-r0 installed size:
+curl-8.12.1-r1 installed size:
 246 KiB
 
-curl-8.12.1-r0 license:
+curl-8.12.1-r1 license:
 curl
 
 ```
@@ -523,16 +523,16 @@ Apache-2.0
 ### `apk` package: `libcurl`
 
 ```console
-libcurl-8.12.1-r0 description:
+libcurl-8.12.1-r1 description:
 The multiprotocol file transfer library
 
-libcurl-8.12.1-r0 webpage:
+libcurl-8.12.1-r1 webpage:
 https://curl.se/
 
-libcurl-8.12.1-r0 installed size:
+libcurl-8.12.1-r1 installed size:
 628 KiB
 
-libcurl-8.12.1-r0 license:
+libcurl-8.12.1-r1 license:
 curl
 
 ```
@@ -557,16 +557,16 @@ BSD-3-Clause
 ### `apk` package: `libexpat`
 
 ```console
-libexpat-2.6.4-r0 description:
+libexpat-2.7.0-r0 description:
 XML Parser library written in C (libraries)
 
-libexpat-2.6.4-r0 webpage:
+libexpat-2.7.0-r0 webpage:
 https://libexpat.github.io/
 
-libexpat-2.6.4-r0 installed size:
+libexpat-2.7.0-r0 installed size:
 129 KiB
 
-libexpat-2.6.4-r0 license:
+libexpat-2.7.0-r0 license:
 MIT
 
 ```
@@ -846,16 +846,16 @@ GPL-3.0-or-later
 ### `apk` package: `mercurial`
 
 ```console
-mercurial-6.9-r0 description:
+mercurial-6.9.4-r0 description:
 Scalable distributed SCM tool
 
-mercurial-6.9-r0 webpage:
+mercurial-6.9.4-r0 webpage:
 https://www.mercurial-scm.org/
 
-mercurial-6.9-r0 installed size:
+mercurial-6.9.4-r0 installed size:
 11 MiB
 
-mercurial-6.9-r0 license:
+mercurial-6.9.4-r0 license:
 GPL-2.0-or-later
 
 ```
@@ -863,16 +863,16 @@ GPL-2.0-or-later
 ### `apk` package: `mercurial-pyc`
 
 ```console
-mercurial-pyc-6.9-r0 description:
+mercurial-pyc-6.9.4-r0 description:
 Precompiled Python bytecode for mercurial
 
-mercurial-pyc-6.9-r0 webpage:
+mercurial-pyc-6.9.4-r0 webpage:
 https://www.mercurial-scm.org/
 
-mercurial-pyc-6.9-r0 installed size:
-9602 KiB
+mercurial-pyc-6.9.4-r0 installed size:
+9604 KiB
 
-mercurial-pyc-6.9-r0 license:
+mercurial-pyc-6.9.4-r0 license:
 GPL-2.0-or-later
 
 ```
@@ -1084,16 +1084,16 @@ BSD-3-Clause
 ### `apk` package: `pyc`
 
 ```console
-pyc-3.12.9-r0 description:
+pyc-3.12.10-r0 description:
 Meta package for pulling in all -pyc packages
 
-pyc-3.12.9-r0 webpage:
+pyc-3.12.10-r0 webpage:
 https://www.python.org/
 
-pyc-3.12.9-r0 installed size:
+pyc-3.12.10-r0 installed size:
 0 B
 
-pyc-3.12.9-r0 license:
+pyc-3.12.10-r0 license:
 PSF-2.0
 
 ```
@@ -1101,16 +1101,16 @@ PSF-2.0
 ### `apk` package: `python3`
 
 ```console
-python3-3.12.9-r0 description:
+python3-3.12.10-r0 description:
 High-level scripting language
 
-python3-3.12.9-r0 webpage:
+python3-3.12.10-r0 webpage:
 https://www.python.org/
 
-python3-3.12.9-r0 installed size:
+python3-3.12.10-r0 installed size:
 22 MiB
 
-python3-3.12.9-r0 license:
+python3-3.12.10-r0 license:
 PSF-2.0
 
 ```
@@ -1118,16 +1118,16 @@ PSF-2.0
 ### `apk` package: `python3-pyc`
 
 ```console
-python3-pyc-3.12.9-r0 description:
+python3-pyc-3.12.10-r0 description:
 High-level scripting language (install .pyc cache files)
 
-python3-pyc-3.12.9-r0 webpage:
+python3-pyc-3.12.10-r0 webpage:
 https://www.python.org/
 
-python3-pyc-3.12.9-r0 installed size:
+python3-pyc-3.12.10-r0 installed size:
 0 B
 
-python3-pyc-3.12.9-r0 license:
+python3-pyc-3.12.10-r0 license:
 PSF-2.0
 
 ```
@@ -1135,16 +1135,16 @@ PSF-2.0
 ### `apk` package: `python3-pycache-pyc0`
 
 ```console
-python3-pycache-pyc0-3.12.9-r0 description:
+python3-pycache-pyc0-3.12.10-r0 description:
 High-level scripting language (.pyc pycache files)
 
-python3-pycache-pyc0-3.12.9-r0 webpage:
+python3-pycache-pyc0-3.12.10-r0 webpage:
 https://www.python.org/
 
-python3-pycache-pyc0-3.12.9-r0 installed size:
+python3-pycache-pyc0-3.12.10-r0 installed size:
 10 MiB
 
-python3-pycache-pyc0-3.12.9-r0 license:
+python3-pycache-pyc0-3.12.10-r0 license:
 PSF-2.0
 
 ```
@@ -1356,16 +1356,16 @@ ISC
 ### `apk` package: `xz`
 
 ```console
-xz-5.6.3-r0 description:
+xz-5.6.3-r1 description:
 Library and CLI tools for XZ and LZMA compressed files
 
-xz-5.6.3-r0 webpage:
+xz-5.6.3-r1 webpage:
 https://tukaani.org/xz/
 
-xz-5.6.3-r0 installed size:
+xz-5.6.3-r1 installed size:
 150 KiB
 
-xz-5.6.3-r0 license:
+xz-5.6.3-r1 license:
 GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 
 ```
@@ -1373,16 +1373,16 @@ GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 ### `apk` package: `xz-libs`
 
 ```console
-xz-libs-5.6.3-r0 description:
+xz-libs-5.6.3-r1 description:
 Library and CLI tools for XZ and LZMA compressed files (libraries)
 
-xz-libs-5.6.3-r0 webpage:
+xz-libs-5.6.3-r1 webpage:
 https://tukaani.org/xz/
 
-xz-libs-5.6.3-r0 installed size:
+xz-libs-5.6.3-r1 installed size:
 221 KiB
 
-xz-libs-5.6.3-r0 license:
+xz-libs-5.6.3-r1 license:
 GPL-2.0-or-later AND 0BSD AND Public-Domain AND LGPL-2.1-or-later
 
 ```

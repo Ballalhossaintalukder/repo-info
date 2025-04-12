@@ -82,19 +82,13 @@ Licenses: (parsed from: `/usr/share/doc/apt/copyright`, `/usr/share/doc/libapt-p
 - `GPL-2+`
 - `curl`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris apt=2.9.35
-'http://deb.debian.org/debian/pool/main/a/apt/apt_2.9.35.dsc' apt_2.9.35.dsc 3162 SHA256:db4eb1d520292d16de9e750f94892580b3d6b433825fa684788b0f066dc975aa
-'http://deb.debian.org/debian/pool/main/a/apt/apt_2.9.35.tar.xz' apt_2.9.35.tar.xz 2417844 SHA256:aca23300772b2ce09a08e253ef12e489099d3da235f88a7564635a69d24869a5
-```
+The source package *may* still be available for download from:
 
-Other potentially useful URLs:
+- http://snapshot.debian.org/package/apt/2.9.35/
 
-- https://sources.debian.net/src/apt/2.9.35/ (for browsing the source)
-- https://sources.debian.net/src/apt/2.9.35/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/apt/2.9.35/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `attr=1:2.5.2-3`
 
@@ -2428,20 +2422,13 @@ Licenses: (parsed from: `/usr/share/doc/login.defs/copyright`, `/usr/share/doc/p
 - `GPL-2`
 - `GPL-2+`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris shadow=1:4.17.3-3
-'http://deb.debian.org/debian/pool/main/s/shadow/shadow_4.17.3-3.dsc' shadow_4.17.3-3.dsc 2607 SHA256:9f862ab7a73c5097d3e45be5e8aa14cc9b10bc937c9de5871fe41c1942f333eb
-'http://deb.debian.org/debian/pool/main/s/shadow/shadow_4.17.3.orig.tar.xz' shadow_4.17.3.orig.tar.xz 2327984 SHA256:09e896c7b01c97ba4be2d6be332c55a3e478b4893cd3c3466d8224e622bd4943
-'http://deb.debian.org/debian/pool/main/s/shadow/shadow_4.17.3-3.debian.tar.xz' shadow_4.17.3-3.debian.tar.xz 172524 SHA256:5476890e9ee33d7a4772db86711007d61fa45e52514567bb69598ec5e8f28038
-```
+The source package *may* still be available for download from:
 
-Other potentially useful URLs:
+- http://snapshot.debian.org/package/shadow/1:4.17.3-3/
 
-- https://sources.debian.net/src/shadow/1:4.17.3-3/ (for browsing the source)
-- https://sources.debian.net/src/shadow/1:4.17.3-3/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/shadow/1:4.17.3-3/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `sqlite3=3.46.1-2`
 
@@ -2489,20 +2476,13 @@ Licenses: (parsed from: `/usr/share/doc/libsystemd0/copyright`, `/usr/share/doc/
 - `LGPL-2.1+`
 - `public-domain`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris systemd=257.4-3
-'http://deb.debian.org/debian/pool/main/s/systemd/systemd_257.4-3.dsc' systemd_257.4-3.dsc 8581 SHA256:a55e21575288d1106edc794ca713400c9ae0488cc38d29a5426b03f6ce877c8e
-'http://deb.debian.org/debian/pool/main/s/systemd/systemd_257.4.orig.tar.gz' systemd_257.4.orig.tar.gz 16228313 SHA256:3e7955ecdb8ad317b2876a31ad749e4dd71d371f343de40d856d62c1eb2ffa2a
-'http://deb.debian.org/debian/pool/main/s/systemd/systemd_257.4-3.debian.tar.xz' systemd_257.4-3.debian.tar.xz 179608 SHA256:7173954cc5e0004bcf3d43b87e56ffd472662c94399304581f613bec535eb46e
-```
+The source package *may* still be available for download from:
 
-Other potentially useful URLs:
+- http://snapshot.debian.org/package/systemd/257.4-3/
 
-- https://sources.debian.net/src/systemd/257.4-3/ (for browsing the source)
-- https://sources.debian.net/src/systemd/257.4-3/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/systemd/257.4-3/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `sysvinit=3.14-4`
 

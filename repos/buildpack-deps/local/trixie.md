@@ -134,19 +134,13 @@ Licenses: (parsed from: `/usr/share/doc/apt/copyright`, `/usr/share/doc/libapt-p
 - `GPL-2+`
 - `curl`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris apt=2.9.35
-'http://deb.debian.org/debian/pool/main/a/apt/apt_2.9.35.dsc' apt_2.9.35.dsc 3162 SHA256:db4eb1d520292d16de9e750f94892580b3d6b433825fa684788b0f066dc975aa
-'http://deb.debian.org/debian/pool/main/a/apt/apt_2.9.35.tar.xz' apt_2.9.35.tar.xz 2417844 SHA256:aca23300772b2ce09a08e253ef12e489099d3da235f88a7564635a69d24869a5
-```
+The source package *may* still be available for download from:
 
-Other potentially useful URLs:
+- http://snapshot.debian.org/package/apt/2.9.35/
 
-- https://sources.debian.net/src/apt/2.9.35/ (for browsing the source)
-- https://sources.debian.net/src/apt/2.9.35/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/apt/2.9.35/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `architecture-properties=0.2.6`
 
@@ -1562,21 +1556,13 @@ Licenses: (parsed from: `/usr/share/doc/gir1.2-glib-2.0/copyright`, `/usr/share/
 - `cmph`
 - `old-glib-tests`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris glib2.0=2.84.0-2
-'http://deb.debian.org/debian/pool/main/g/glib2.0/glib2.0_2.84.0-2.dsc' glib2.0_2.84.0-2.dsc 4812 SHA256:745444c7b330cb3618319945af5d83a70f5ae16324d31c1da492607bc25b2a9e
-'http://deb.debian.org/debian/pool/main/g/glib2.0/glib2.0_2.84.0.orig-unicode-data.tar.xz' glib2.0_2.84.0.orig-unicode-data.tar.xz 660708 SHA256:c1742461e8c0e9673a3453a3127671169de9cb0138493e5c916f1b989530efcd
-'http://deb.debian.org/debian/pool/main/g/glib2.0/glib2.0_2.84.0.orig.tar.xz' glib2.0_2.84.0.orig.tar.xz 5613328 SHA256:f8823600cb85425e2815cfad82ea20fdaa538482ab74e7293d58b3f64a5aff6a
-'http://deb.debian.org/debian/pool/main/g/glib2.0/glib2.0_2.84.0-2.debian.tar.xz' glib2.0_2.84.0-2.debian.tar.xz 172092 SHA256:f9b953ac71670bf0bf2e4fe4751b3770a992e6d7d9e8baccd51f311213c89c10
-```
+The source package *may* still be available for download from:
 
-Other potentially useful URLs:
+- http://snapshot.debian.org/package/glib2.0/2.84.0-2/
 
-- https://sources.debian.net/src/glib2.0/2.84.0-2/ (for browsing the source)
-- https://sources.debian.net/src/glib2.0/2.84.0-2/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/glib2.0/2.84.0-2/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `glibc=2.41-6`
 
@@ -4097,20 +4083,13 @@ Licenses: (parsed from: `/usr/share/doc/make/copyright`)
 - `GPL-3`
 - `GPL-3+`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris make-dfsg=4.4.1-1
-'http://deb.debian.org/debian/pool/main/m/make-dfsg/make-dfsg_4.4.1-1.dsc' make-dfsg_4.4.1-1.dsc 1976 SHA256:4207e14d2dfceadcfabd1bc5b392b37b004afe2670e76cff27d607c8a8f1e3ef
-'http://deb.debian.org/debian/pool/main/m/make-dfsg/make-dfsg_4.4.1.orig.tar.xz' make-dfsg_4.4.1.orig.tar.xz 1125180 SHA256:3b16b00ea1079af9f8096bbc71ff7cc00c249fc6a862003da3c42308a0adb0fe
-'http://deb.debian.org/debian/pool/main/m/make-dfsg/make-dfsg_4.4.1-1.debian.tar.xz' make-dfsg_4.4.1-1.debian.tar.xz 44572 SHA256:5fa0b82841979963c0512ef2147698fc24adb5f8d783172d7a3c6d68e3464f7e
-```
+The source package *may* still be available for download from:
 
-Other potentially useful URLs:
+- http://snapshot.debian.org/package/make-dfsg/4.4.1-1/
 
-- https://sources.debian.net/src/make-dfsg/4.4.1-1/ (for browsing the source)
-- https://sources.debian.net/src/make-dfsg/4.4.1-1/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/make-dfsg/4.4.1-1/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `mariadb=1:11.8.1-2`
 
@@ -5056,20 +5035,13 @@ Licenses: (parsed from: `/usr/share/doc/libpq-dev/copyright`, `/usr/share/doc/li
 - `double-metaphone`
 - `nagaysau-ishii`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris postgresql-17=17.4-1
-'http://deb.debian.org/debian/pool/main/p/postgresql-17/postgresql-17_17.4-1.dsc' postgresql-17_17.4-1.dsc 4245 SHA256:0dcc2ad1fbbc28312d47c5e5454859c99074b0ed4eb34519e6419b09656e70ce
-'http://deb.debian.org/debian/pool/main/p/postgresql-17/postgresql-17_17.4.orig.tar.bz2' postgresql-17_17.4.orig.tar.bz2 21519810 SHA256:c4605b73fea11963406699f949b966e5d173a7ee0ccaef8938dec0ca8a995fe7
-'http://deb.debian.org/debian/pool/main/p/postgresql-17/postgresql-17_17.4-1.debian.tar.xz' postgresql-17_17.4-1.debian.tar.xz 27248 SHA256:b648e84ce8dea0e4403797a8f8ba6477426ba6c2840fdc84e3578bad3b010f80
-```
+The source package *may* still be available for download from:
 
-Other potentially useful URLs:
+- http://snapshot.debian.org/package/postgresql-17/17.4-1/
 
-- https://sources.debian.net/src/postgresql-17/17.4-1/ (for browsing the source)
-- https://sources.debian.net/src/postgresql-17/17.4-1/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/postgresql-17/17.4-1/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `procps=2:4.0.4-7`
 
@@ -5436,20 +5408,13 @@ Licenses: (parsed from: `/usr/share/doc/login.defs/copyright`, `/usr/share/doc/p
 - `GPL-2`
 - `GPL-2+`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris shadow=1:4.17.3-3
-'http://deb.debian.org/debian/pool/main/s/shadow/shadow_4.17.3-3.dsc' shadow_4.17.3-3.dsc 2607 SHA256:9f862ab7a73c5097d3e45be5e8aa14cc9b10bc937c9de5871fe41c1942f333eb
-'http://deb.debian.org/debian/pool/main/s/shadow/shadow_4.17.3.orig.tar.xz' shadow_4.17.3.orig.tar.xz 2327984 SHA256:09e896c7b01c97ba4be2d6be332c55a3e478b4893cd3c3466d8224e622bd4943
-'http://deb.debian.org/debian/pool/main/s/shadow/shadow_4.17.3-3.debian.tar.xz' shadow_4.17.3-3.debian.tar.xz 172524 SHA256:5476890e9ee33d7a4772db86711007d61fa45e52514567bb69598ec5e8f28038
-```
+The source package *may* still be available for download from:
 
-Other potentially useful URLs:
+- http://snapshot.debian.org/package/shadow/1:4.17.3-3/
 
-- https://sources.debian.net/src/shadow/1:4.17.3-3/ (for browsing the source)
-- https://sources.debian.net/src/shadow/1:4.17.3-3/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/shadow/1:4.17.3-3/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `shared-mime-info=2.4-5`
 
@@ -5528,21 +5493,13 @@ Licenses: (parsed from: `/usr/share/doc/libsvn1/copyright`, `/usr/share/doc/subv
 - `Unicode`
 - `Utfwidth`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris subversion=1.14.5-2
-'http://deb.debian.org/debian/pool/main/s/subversion/subversion_1.14.5-2.dsc' subversion_1.14.5-2.dsc 4080 SHA256:12a6c28905b845d7600c98f78d5cddb2b66efa38b82cced003f6a3cfc5e72f32
-'http://deb.debian.org/debian/pool/main/s/subversion/subversion_1.14.5.orig.tar.gz' subversion_1.14.5.orig.tar.gz 11645728 SHA256:cd143fe8fdb1cd506c438eef1c772a2e87e1519e6b0be3fcd54a8c59e9022390
-'http://deb.debian.org/debian/pool/main/s/subversion/subversion_1.14.5.orig.tar.gz.asc' subversion_1.14.5.orig.tar.gz.asc 2382 SHA256:91384669ad9125c6919b0b2ab0c345e6de3cd0f89affe04ab66dfe9c5e19d673
-'http://deb.debian.org/debian/pool/main/s/subversion/subversion_1.14.5-2.debian.tar.xz' subversion_1.14.5-2.debian.tar.xz 297456 SHA256:ea3c6398725284e72cce87d65866710352622807a323800e56030556fb64a987
-```
+The source package *may* still be available for download from:
 
-Other potentially useful URLs:
+- http://snapshot.debian.org/package/subversion/1.14.5-2/
 
-- https://sources.debian.net/src/subversion/1.14.5-2/ (for browsing the source)
-- https://sources.debian.net/src/subversion/1.14.5-2/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/subversion/1.14.5-2/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `sysprof=48.0-2`
 
@@ -5597,20 +5554,13 @@ Licenses: (parsed from: `/usr/share/doc/libsystemd0/copyright`, `/usr/share/doc/
 - `LGPL-2.1+`
 - `public-domain`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris systemd=257.4-3
-'http://deb.debian.org/debian/pool/main/s/systemd/systemd_257.4-3.dsc' systemd_257.4-3.dsc 8581 SHA256:a55e21575288d1106edc794ca713400c9ae0488cc38d29a5426b03f6ce877c8e
-'http://deb.debian.org/debian/pool/main/s/systemd/systemd_257.4.orig.tar.gz' systemd_257.4.orig.tar.gz 16228313 SHA256:3e7955ecdb8ad317b2876a31ad749e4dd71d371f343de40d856d62c1eb2ffa2a
-'http://deb.debian.org/debian/pool/main/s/systemd/systemd_257.4-3.debian.tar.xz' systemd_257.4-3.debian.tar.xz 179608 SHA256:7173954cc5e0004bcf3d43b87e56ffd472662c94399304581f613bec535eb46e
-```
+The source package *may* still be available for download from:
 
-Other potentially useful URLs:
+- http://snapshot.debian.org/package/systemd/257.4-3/
 
-- https://sources.debian.net/src/systemd/257.4-3/ (for browsing the source)
-- https://sources.debian.net/src/systemd/257.4-3/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/systemd/257.4-3/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `sysvinit=3.14-4`
 
@@ -5688,20 +5638,13 @@ Licenses: (parsed from: `/usr/share/doc/libtiff-dev/copyright`, `/usr/share/doc/
 
 - `Hylafax`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris tiff=4.7.0-2
-'http://deb.debian.org/debian/pool/main/t/tiff/tiff_4.7.0-2.dsc' tiff_4.7.0-2.dsc 2255 SHA256:4825792442692f3572adc5fbb38558dbc5ef8774e3d170957c4cc95e1d251140
-'http://deb.debian.org/debian/pool/main/t/tiff/tiff_4.7.0.orig.tar.bz2' tiff_4.7.0.orig.tar.bz2 2111254 SHA256:2b8b5c4e79cb2a4651796602e45d6179b7f18bc283feab417b8e881ef7e81862
-'http://deb.debian.org/debian/pool/main/t/tiff/tiff_4.7.0-2.debian.tar.xz' tiff_4.7.0-2.debian.tar.xz 23992 SHA256:262fe3bf10440545ac848af165965bce4f86e24012c1be1f953236ddecd0412e
-```
+The source package *may* still be available for download from:
 
-Other potentially useful URLs:
+- http://snapshot.debian.org/package/tiff/4.7.0-2/
 
-- https://sources.debian.net/src/tiff/4.7.0-2/ (for browsing the source)
-- https://sources.debian.net/src/tiff/4.7.0-2/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/tiff/4.7.0-2/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `tzdata=2025b-1`
 
