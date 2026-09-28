@@ -490,14 +490,9 @@ Licenses: (parsed from: `/usr/share/doc/curl/copyright`, `/usr/share/doc/libcurl
 - `X11`
 - `curl`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris curl=8.5.0-2ubuntu10.13
-'http://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_8.5.0.orig.tar.gz' curl_8.5.0.orig.tar.gz 4372979 SHA512:1ff70e8fd5f233b373dea2a031d46698c03ed35f384c2eacbe9368f9daed65e91d7f45ade350c3ac3dd3d662c913b17cdc8702a0c23879b0c78fbd396fd0b926
-'http://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_8.5.0-2ubuntu10.13.debian.tar.xz' curl_8.5.0-2ubuntu10.13.debian.tar.xz 89820 SHA512:0387ac0b784f8f2db333786f56d0925f696c8bcbf0a0f39651c6fa35d875fd3aecbd91b30713f93f7afb7b49f21af0d96b37d700f22c7ab5ca21cb14af5da96b
-'http://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_8.5.0-2ubuntu10.13.dsc' curl_8.5.0-2ubuntu10.13.dsc 3092 SHA512:bd71e6c018e6cdddc0072fd4984007760dd37ce31e9293b7058b31192cfe9fae2920dd530e75ce582d895140ae758c1646981e05720082ffeb098b98db75a9b0
-```
 
 ### `dpkg` source package: `cyrus-sasl2=2.1.28+dfsg1-5ubuntu3.1`
 
@@ -4604,14 +4599,9 @@ Licenses: (parsed from: `/usr/share/doc/python3-requests/copyright`)
 - `Apache-2.0`
 - `other`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris requests=2.31.0+dfsg-1ubuntu1.1
-'http://archive.ubuntu.com/ubuntu/pool/main/r/requests/requests_2.31.0%2bdfsg.orig.tar.xz' requests_2.31.0+dfsg.orig.tar.xz 133388 SHA256:dd3c571624bd889b38d8ea9778f188e065e7b3b8a7e7f731b7536bac54303fad
-'http://archive.ubuntu.com/ubuntu/pool/main/r/requests/requests_2.31.0%2bdfsg-1ubuntu1.1.debian.tar.xz' requests_2.31.0+dfsg-1ubuntu1.1.debian.tar.xz 14684 SHA256:c7585d9f4c68a4a0db94779b56fd6f3b296795bd1403405d3793cd5e44eb8cb8
-'http://archive.ubuntu.com/ubuntu/pool/main/r/requests/requests_2.31.0%2bdfsg-1ubuntu1.1.dsc' requests_2.31.0+dfsg-1ubuntu1.1.dsc 2454 SHA256:43d9acef0cd71ea5b63d6a6cc248a4e4b7b48524c91fcfeda709e09d8e0d23c7
-```
 
 ### `dpkg` source package: `rtmpdump=2.4+20151223.gitfa8646d.1-2build7`
 
