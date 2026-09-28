@@ -2,9 +2,9 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:1185fc14775663605fb59d473027b4ae313999272bf371aea64ea117e44ed539`
-- Created: `2026-09-17T22:28:51.443199396Z`
-- Virtual Size: ~ 594.13 Mb  
+- Image ID: `sha256:ca4cc293f94df1a2add03487572e8db10d71328aafb9bbdf2ad4dac716159f96`
+- Created: `2026-09-25T17:52:41.533535558Z`
+- Virtual Size: ~ 594.14 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Entrypoint: `["docker-php-entrypoint"]`
@@ -17,10 +17,10 @@
   - `PHP_CPPFLAGS=-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64`
   - `PHP_LDFLAGS=-Wl,-O1 -pie`
   - `GPG_KEYS=1198C0117593497A5EC5C199286AF1F9897469DC C28D937575603EB4ABB725861C0779DC5C0A9DE4 AFD8691FDAEDF03BDF6E460563F15A9B715376CA`
-  - `PHP_VERSION=8.3.33`
-  - `PHP_URL=https://www.php.net/distributions/php-8.3.33.tar.xz`
-  - `PHP_ASC_URL=https://www.php.net/distributions/php-8.3.33.tar.xz.asc`
-  - `PHP_SHA256=e293ed620cec74651bb4a071317892a478aa6840fab22db45c72d77cd42f9676`
+  - `PHP_VERSION=8.3.35`
+  - `PHP_URL=https://www.php.net/distributions/php-8.3.35.tar.xz`
+  - `PHP_ASC_URL=https://www.php.net/distributions/php-8.3.35.tar.xz.asc`
+  - `PHP_SHA256=ff4630fbbbd94359134b7d3c223db59329905bdc4f5a9ef93d257b48e358619a`
   - `MEDIAWIKI_MAJOR_VERSION=1.46`
   - `MEDIAWIKI_VERSION=1.46.0`
 
@@ -658,16 +658,16 @@ MIT
 ### `apk` package: `libexpat`
 
 ```console
-libexpat-2.8.4-r0 description:
+libexpat-2.8.5-r0 description:
 XML Parser library written in C (libraries)
 
-libexpat-2.8.4-r0 webpage:
+libexpat-2.8.5-r0 webpage:
 https://libexpat.github.io/
 
-libexpat-2.8.4-r0 installed size:
+libexpat-2.8.5-r0 installed size:
 137 KiB
 
-libexpat-2.8.4-r0 license:
+libexpat-2.8.5-r0 license:
 MIT
 
 ```
