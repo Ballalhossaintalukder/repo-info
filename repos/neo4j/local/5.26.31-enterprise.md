@@ -2,8 +2,8 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:b077bbd00380a184a42301fcd221d4e0f8133fd1d3853cf64ed694c8ae4eeecc`
-- Created: `2026-09-22T18:44:15.596849828Z`
+- Image ID: `sha256:66dde00431d1527b3c567eb436a0fe710152b5f5e1f5085da56d4b688c15b1c5`
+- Created: `2026-09-25T23:08:12.345276133Z`
 - Virtual Size: ~ 969.22 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
@@ -855,12 +855,12 @@ Other potentially useful URLs:
 - https://sources.debian.net/src/init-system-helpers/1.69~deb13u1/debian/copyright/ (for direct copyright/license information)
 - http://snapshot.debian.org/package/init-system-helpers/1.69~deb13u1/ (for access to the source package after it no longer exists in the archive)
 
-### `dpkg` source package: `jq=1.7.1-6+deb13u3`
+### `dpkg` source package: `jq=1.7.1-6+deb13u4`
 
 Binary Packages:
 
-- `jq=1.7.1-6+deb13u3`
-- `libjq1:amd64=1.7.1-6+deb13u3`
+- `jq=1.7.1-6+deb13u4`
+- `libjq1:amd64=1.7.1-6+deb13u4`
 
 Licenses: (parsed from: `/usr/share/doc/jq/copyright`, `/usr/share/doc/libjq1/copyright`)
 
@@ -873,17 +873,17 @@ Licenses: (parsed from: `/usr/share/doc/jq/copyright`, `/usr/share/doc/libjq1/co
 Source:
 
 ```console
-$ apt-get source -qq --print-uris jq=1.7.1-6+deb13u3
-'http://deb.debian.org/debian/pool/main/j/jq/jq_1.7.1-6%2bdeb13u3.dsc' jq_1.7.1-6+deb13u3.dsc 1687 SHA256:b8f3bb5475bf6efc82eb0f22469b86bfd3ce4316244bef360c38b038844bcbdb
-'http://deb.debian.org/debian/pool/main/j/jq/jq_1.7.1.orig.tar.gz' jq_1.7.1.orig.tar.gz 1323338 SHA256:fc75b1824aba7a954ef0886371d951c3bf4b6e0a921d1aefc553f309702d6ed1
-'http://deb.debian.org/debian/pool/main/j/jq/jq_1.7.1-6%2bdeb13u3.debian.tar.xz' jq_1.7.1-6+deb13u3.debian.tar.xz 34064 SHA256:815de96992ec0f465b03a0e08dbc5dffa59c3ef89585b5ae71bb877a8545759c
+$ apt-get source -qq --print-uris jq=1.7.1-6+deb13u4
+'http://deb.debian.org/debian-security/pool/updates/main/j/jq/jq_1.7.1-6%2bdeb13u4.dsc' jq_1.7.1-6+deb13u4.dsc 1687 SHA256:5d569aab638047a984eb5df48943d626083fced2ed7bd85e1ce21228504c787f
+'http://deb.debian.org/debian-security/pool/updates/main/j/jq/jq_1.7.1.orig.tar.gz' jq_1.7.1.orig.tar.gz 1323338 SHA256:fc75b1824aba7a954ef0886371d951c3bf4b6e0a921d1aefc553f309702d6ed1
+'http://deb.debian.org/debian-security/pool/updates/main/j/jq/jq_1.7.1-6%2bdeb13u4.debian.tar.xz' jq_1.7.1-6+deb13u4.debian.tar.xz 35488 SHA256:212a072699dfaaff63406ce9f846827ba00b048726f1c644d159cffb1008b067
 ```
 
 Other potentially useful URLs:
 
-- https://sources.debian.net/src/jq/1.7.1-6+deb13u3/ (for browsing the source)
-- https://sources.debian.net/src/jq/1.7.1-6+deb13u3/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/jq/1.7.1-6+deb13u3/ (for access to the source package after it no longer exists in the archive)
+- https://sources.debian.net/src/jq/1.7.1-6+deb13u4/ (for browsing the source)
+- https://sources.debian.net/src/jq/1.7.1-6+deb13u4/debian/copyright/ (for direct copyright/license information)
+- http://snapshot.debian.org/package/jq/1.7.1-6+deb13u4/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `libbsd=0.12.2-2`
 
