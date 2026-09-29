@@ -2,9 +2,9 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:74518e81a5c03a10e88d8853a0b8c02c2156c76ed1c4071b9769bd907625d422`
-- Created: `2026-09-24T19:28:08.639020104Z`
-- Virtual Size: ~ 346.71 Mb  
+- Image ID: `sha256:36b029c0f5e74a5de03d1720389489493b03c6e092647a73c44d7f4cf758eff9`
+- Created: `2026-09-25T18:01:22.88834473Z`
+- Virtual Size: ~ 349.66 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Entrypoint: `["docker-entrypoint.sh"]`
@@ -585,6 +585,23 @@ ImageMagick
 
 ```
 
+### `apk` package: `imagemagick-heic`
+
+```console
+imagemagick-heic-7.1.2.30-r0 description:
+Collection of tools and libraries for many image formats (HEIC support modules)
+
+imagemagick-heic-7.1.2.30-r0 webpage:
+https://imagemagick.org/
+
+imagemagick-heic-7.1.2.30-r0 installed size:
+46 KiB
+
+imagemagick-heic-7.1.2.30-r0 license:
+ImageMagick
+
+```
+
 ### `apk` package: `imagemagick-jp2`
 
 ```console
@@ -857,6 +874,23 @@ BSD-2-Clause
 
 ```
 
+### `apk` package: `libde265`
+
+```console
+libde265-1.0.18-r0 description:
+Open h.265 video codec implementation
+
+libde265-1.0.18-r0 webpage:
+https://github.com/strukturag/libde265
+
+libde265-1.0.18-r0 installed size:
+814 KiB
+
+libde265-1.0.18-r0 license:
+LGPL-3.0-or-later
+
+```
+
 ### `apk` package: `libeconf`
 
 ```console
@@ -939,6 +973,108 @@ libgomp-15.2.0-r5 installed size:
 
 libgomp-15.2.0-r5 license:
 GPL-2.0-or-later AND LGPL-2.1-or-later
+
+```
+
+### `apk` package: `libheif`
+
+```console
+libheif-1.23.4-r0 description:
+ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+
+libheif-1.23.4-r0 webpage:
+https://www.libde265.org/
+
+libheif-1.23.4-r0 installed size:
+1850 KiB
+
+libheif-1.23.4-r0 license:
+LGPL-3.0-or-later
+
+```
+
+### `apk` package: `libheif-aom`
+
+```console
+libheif-aom-1.23.4-r0 description:
+libheif AVIF/AV1 encoder and decoder plugins using libaom
+
+libheif-aom-1.23.4-r0 webpage:
+https://www.libde265.org/
+
+libheif-aom-1.23.4-r0 installed size:
+59 KiB
+
+libheif-aom-1.23.4-r0 license:
+LGPL-3.0-or-later
+
+```
+
+### `apk` package: `libheif-dav1d`
+
+```console
+libheif-dav1d-1.23.4-r0 description:
+libheif AVIF/AV1 decoder plugin using dav1d
+
+libheif-dav1d-1.23.4-r0 webpage:
+https://www.libde265.org/
+
+libheif-dav1d-1.23.4-r0 installed size:
+17 KiB
+
+libheif-dav1d-1.23.4-r0 license:
+LGPL-3.0-or-later
+
+```
+
+### `apk` package: `libheif-jpeg`
+
+```console
+libheif-jpeg-1.23.4-r0 description:
+libheif JPEG decoder and encoder plugins for JPEG-in-HEIF images
+
+libheif-jpeg-1.23.4-r0 webpage:
+https://www.libde265.org/
+
+libheif-jpeg-1.23.4-r0 installed size:
+31 KiB
+
+libheif-jpeg-1.23.4-r0 license:
+LGPL-3.0-or-later
+
+```
+
+### `apk` package: `libheif-libde265`
+
+```console
+libheif-libde265-1.23.4-r0 description:
+libheif HEIC/HEVC (H.265) decoder plugin using libde265
+
+libheif-libde265-1.23.4-r0 webpage:
+https://www.libde265.org/
+
+libheif-libde265-1.23.4-r0 installed size:
+17 KiB
+
+libheif-libde265-1.23.4-r0 license:
+LGPL-3.0-or-later
+
+```
+
+### `apk` package: `libheif-openjpeg`
+
+```console
+libheif-openjpeg-1.23.4-r0 description:
+libheif JPEG 2000 encoder and decoder plugins using OpenJPEG
+
+libheif-openjpeg-1.23.4-r0 webpage:
+https://www.libde265.org/
+
+libheif-openjpeg-1.23.4-r0 installed size:
+35 KiB
+
+libheif-openjpeg-1.23.4-r0 license:
+LGPL-3.0-or-later
 
 ```
 
