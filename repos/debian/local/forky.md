@@ -1098,21 +1098,13 @@ Licenses: (parsed from: `/usr/share/doc/mawk/copyright`)
 - `GPL-2.0-only`
 - `X11`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris mawk=1.3.4.20260302-1
-'http://deb.debian.org/debian/pool/main/m/mawk/mawk_1.3.4.20260302-1.dsc' mawk_1.3.4.20260302-1.dsc 2969 SHA256:26e1f5c5864ea340a8f16049025a31be2aa16c7bb59ad531616e7066032953e4
-'http://deb.debian.org/debian/pool/main/m/mawk/mawk_1.3.4.20260302.orig.tar.gz' mawk_1.3.4.20260302.orig.tar.gz 438318 SHA256:e2c08a77d0a84a01f9be454d1ca3872d4f103f9ada683d075198b0c6e965633d
-'http://deb.debian.org/debian/pool/main/m/mawk/mawk_1.3.4.20260302.orig.tar.gz.asc' mawk_1.3.4.20260302.orig.tar.gz.asc 729 SHA256:19d493061dff7df253d698f866be24856028155f51abb037fdb4ad2872d611f5
-'http://deb.debian.org/debian/pool/main/m/mawk/mawk_1.3.4.20260302-1.debian.tar.xz' mawk_1.3.4.20260302-1.debian.tar.xz 16128 SHA256:0e9a3e00800cb10dab402196b0511ed19a9f626e351b6cc1b807026f3594de62
-```
+The source package *may* still be available for download from:
 
-Other potentially useful URLs:
+- http://snapshot.debian.org/package/mawk/1.3.4.20260302-1/
 
-- https://sources.debian.net/src/mawk/1.3.4.20260302-1/ (for browsing the source)
-- https://sources.debian.net/src/mawk/1.3.4.20260302-1/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/mawk/1.3.4.20260302-1/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `ncurses=6.6+20260608-2`
 
@@ -1434,20 +1426,13 @@ Licenses: (parsed from: `/usr/share/doc/libsystemd0/copyright`, `/usr/share/doc/
 - `Unlicense`
 - `public-domain`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris systemd=261.2-1
-'http://deb.debian.org/debian/pool/main/s/systemd/systemd_261.2-1.dsc' systemd_261.2-1.dsc 9228 SHA256:7729a8b2e6b566a9a28581a1cbfb586dfc18d132d6b35e3b8dc58a64f74152f7
-'http://deb.debian.org/debian/pool/main/s/systemd/systemd_261.2.orig.tar.gz' systemd_261.2.orig.tar.gz 18456346 SHA256:ed1059ff964f5df35b6056434cc17cc83f86dc913f10489948a0b19b6081c5ec
-'http://deb.debian.org/debian/pool/main/s/systemd/systemd_261.2-1.debian.tar.xz' systemd_261.2-1.debian.tar.xz 189648 SHA256:1fc81b6193e7459893337f4efcd7b4a736e51ee5f190716d8923dddc1e944b35
-```
+The source package *may* still be available for download from:
 
-Other potentially useful URLs:
+- http://snapshot.debian.org/package/systemd/261.2-1/
 
-- https://sources.debian.net/src/systemd/261.2-1/ (for browsing the source)
-- https://sources.debian.net/src/systemd/261.2-1/debian/copyright/ (for direct copyright/license information)
-- http://snapshot.debian.org/package/systemd/261.2-1/ (for access to the source package after it no longer exists in the archive)
 
 ### `dpkg` source package: `sysvinit=3.18-1`
 
