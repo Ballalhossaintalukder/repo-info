@@ -2,8 +2,8 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:e7ffe5bcb78f92e4a872ab4bdee34a0e96f11b6a495b1b50b9448fc5829af400`
-- Created: `2026-09-19T01:19:23.239951553Z`
+- Image ID: `sha256:0f86cdac5a7eba2f70a0eec326692731a323417a1b7b822004c3e72cb041e5e2`
+- Created: `2026-09-26T00:23:00.064789529Z`
 - Virtual Size: ~ 443.11 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
@@ -909,11 +909,11 @@ Other potentially useful URLs:
 - https://sources.debian.net/src/init-system-helpers/1.69~deb13u1/debian/copyright/ (for direct copyright/license information)
 - http://snapshot.debian.org/package/init-system-helpers/1.69~deb13u1/ (for access to the source package after it no longer exists in the archive)
 
-### `dpkg` source package: `java-17-amazon-corretto-jdk=1:17.0.20.10-1`
+### `dpkg` source package: `java-17-amazon-corretto-jdk=1:17.0.20.12-1`
 
 Binary Packages:
 
-- `java-17-amazon-corretto-jdk:amd64=1:17.0.20.10-1`
+- `java-17-amazon-corretto-jdk:amd64=1:17.0.20.12-1`
 
 **WARNING:** unable to detect licenses! (package likely not compliant with DEP-5)  
 If source is available (seen below), check the contents of `debian/copyright` within it.
