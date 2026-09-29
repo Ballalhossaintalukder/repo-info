@@ -2,8 +2,8 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:774bc6ee4c5a0d4ef05fd5a0f52e699110440ed972fc5cf764ec2988ff6f54e7`
-- Created: `2026-09-17T22:26:25.89113724Z`
+- Image ID: `sha256:22e049d91cac28d0d222079850bd2b48de4506b3a43ffc621653a440ea6f216f`
+- Created: `2026-09-25T23:02:41.575786713Z`
 - Virtual Size: ~ 361.03 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
@@ -15,7 +15,7 @@
   - `LANG=en_US.UTF-8`
   - `LANGUAGE=en_US:en`
   - `LC_ALL=en_US.UTF-8`
-  - `JAVA_VERSION=jdk-11.0.32+9`
+  - `JAVA_VERSION=jdk-11.0.32.1+1`
   - `GROOVY_HOME=/opt/groovy`
   - `GROOVY_VERSION=3.0.25`
 
@@ -670,16 +670,16 @@ Apache-2.0
 ### `apk` package: `libexpat`
 
 ```console
-libexpat-2.8.4-r0 description:
+libexpat-2.8.5-r0 description:
 XML Parser library written in C (libraries)
 
-libexpat-2.8.4-r0 webpage:
+libexpat-2.8.5-r0 webpage:
 https://libexpat.github.io/
 
-libexpat-2.8.4-r0 installed size:
+libexpat-2.8.5-r0 installed size:
 137 KiB
 
-libexpat-2.8.4-r0 license:
+libexpat-2.8.5-r0 license:
 MIT
 
 ```
