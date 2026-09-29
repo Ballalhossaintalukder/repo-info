@@ -1,10 +1,10 @@
-# `sonarqube:2026.4.1-datacenter-search`
+# `sonarqube:2026.5.0-datacenter-search`
 
 ## Docker Metadata
 
-- Image ID: `sha256:dfd1a3a5683588e6f90264d51e376864726ec7fd322e75e741681f6091945876`
-- Created: `2026-09-16T04:24:40.864128487Z`
-- Virtual Size: ~ 1.96 Gb  
+- Image ID: `sha256:7d7bb3dd1cedf51a9c201b41e7422ef6beaeef040864a1fc289d7c67e1de82ec`
+- Created: `2026-09-25T23:09:30.183995507Z`
+- Virtual Size: ~ 2.08 Gb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Entrypoint: `["/opt/sonarqube/docker/run.sh"]`
@@ -15,10 +15,10 @@
   - `LANG=en_US.UTF-8`
   - `LANGUAGE=en_US:en`
   - `LC_ALL=en_US.UTF-8`
-  - `JAVA_VERSION=jdk-25.0.4+7`
+  - `JAVA_VERSION=jdk-25.0.4.1+1`
   - `DOCKER_RUNNING=true`
   - `SONARQUBE_HOME=/opt/sonarqube`
-  - `SONAR_VERSION=2026.4.1.126914`
+  - `SONAR_VERSION=2026.5.0.132233`
   - `SQ_DATA_DIR=/opt/sonarqube/data`
   - `SQ_EXTENSIONS_DIR=/opt/sonarqube/extensions`
   - `SQ_LOGS_DIR=/opt/sonarqube/logs`
@@ -340,12 +340,12 @@ $ apt-get source -qq --print-uris coreutils=9.4-3ubuntu6.3
 'http://archive.ubuntu.com/ubuntu/pool/main/c/coreutils/coreutils_9.4-3ubuntu6.3.dsc' coreutils_9.4-3ubuntu6.3.dsc 2030 SHA512:80505334592653a7ee541b5aa5d6bc400232a8cf2a01aa7407c5d94073b2b7210a86b9b133835ffa6d5c48050ea74db89d74234cad1ae83b1e98ba1d9ee87624
 ```
 
-### `dpkg` source package: `curl=8.5.0-2ubuntu10.13`
+### `dpkg` source package: `curl=8.5.0-2ubuntu10.15`
 
 Binary Packages:
 
-- `curl=8.5.0-2ubuntu10.13`
-- `libcurl4t64:amd64=8.5.0-2ubuntu10.13`
+- `curl=8.5.0-2ubuntu10.15`
+- `libcurl4t64:amd64=8.5.0-2ubuntu10.15`
 
 Licenses: (parsed from: `/usr/share/doc/curl/copyright`, `/usr/share/doc/libcurl4t64/copyright`)
 
@@ -362,9 +362,14 @@ Licenses: (parsed from: `/usr/share/doc/curl/copyright`, `/usr/share/doc/libcurl
 - `X11`
 - `curl`
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris curl=8.5.0-2ubuntu10.15
+'http://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_8.5.0.orig.tar.gz' curl_8.5.0.orig.tar.gz 4372979 SHA512:1ff70e8fd5f233b373dea2a031d46698c03ed35f384c2eacbe9368f9daed65e91d7f45ade350c3ac3dd3d662c913b17cdc8702a0c23879b0c78fbd396fd0b926
+'http://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_8.5.0-2ubuntu10.15.debian.tar.xz' curl_8.5.0-2ubuntu10.15.debian.tar.xz 92276 SHA512:36f94bd79bf0d3c6ab9db6baadc912869d46dcb4b6f39f0132692cad98b5a5b02f0a24c8713140f5dceb636fe10fde404e80fca5407b7fc03c2fd623826b11ec
+'http://archive.ubuntu.com/ubuntu/pool/main/c/curl/curl_8.5.0-2ubuntu10.15.dsc' curl_8.5.0-2ubuntu10.15.dsc 3096 SHA512:3fb1c5fcb13e5fdbc26d28b1a829c4dc69ee51425dc2d46a55494bb25c4defb4b0d6ec6d075ff12e2bcfab9985fa746bc70548519b27e9b5da972f3f77cdc9f3
+```
 
 ### `dpkg` source package: `cyrus-sasl2=2.1.28+dfsg1-5ubuntu3.1`
 
@@ -613,19 +618,24 @@ $ apt-get source -qq --print-uris elfutils=0.190-1.1ubuntu0.1
 'http://archive.ubuntu.com/ubuntu/pool/main/e/elfutils/elfutils_0.190-1.1ubuntu0.1.dsc' elfutils_0.190-1.1ubuntu0.1.dsc 3410 SHA256:7852785ce5ce51a6dad0f6b67188d94ffedaffa6d0128fecabeb6a1ccc2aabea
 ```
 
-### `dpkg` source package: `expat=2.6.1-2ubuntu0.4`
+### `dpkg` source package: `expat=2.6.1-2ubuntu0.6`
 
 Binary Packages:
 
-- `libexpat1:amd64=2.6.1-2ubuntu0.4`
+- `libexpat1:amd64=2.6.1-2ubuntu0.6`
 
 Licenses: (parsed from: `/usr/share/doc/libexpat1/copyright`)
 
 - `MIT`
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris expat=2.6.1-2ubuntu0.6
+'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.6.1.orig.tar.gz' expat_2.6.1.orig.tar.gz 8414649 SHA512:cf6c64fc0ca55dd172ca8a6ca10d1fb2c915d0f941b0068f42cb90488022dea73e04119c49a1bd4ab9a5d425ddc132ae5f22260ff6d2e25204637a1169e7bd4f
+'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.6.1-2ubuntu0.6.debian.tar.xz' expat_2.6.1-2ubuntu0.6.debian.tar.xz 75472 SHA512:3c6b4dcbf639c2b8f2af0c185396cee4f38c634d926029eb66d485aae42c0285b85fab16353e0dda4d23c6687b0d5875a65bb3eef3d40e17a03e17058c7b4d91
+'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.6.1-2ubuntu0.6.dsc' expat_2.6.1-2ubuntu0.6.dsc 1474 SHA512:2a7daabefcd9b2c2e6aaf54c6719b071beee02230c747aec450c10d781465e32e9df1a98e3c25be51f4f3a451f04f1cc497a693bb90a6c0b8670c6fd6a164a41
+```
 
 ### `dpkg` source package: `findutils=4.9.0-5build1`
 
@@ -2111,11 +2121,11 @@ $ apt-get source -qq --print-uris shadow=1:4.13+dfsg1-4ubuntu3.2
 'http://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.13%2bdfsg1-4ubuntu3.2.dsc' shadow_4.13+dfsg1-4ubuntu3.2.dsc 2400 SHA256:0be17fd044f3e23f714a5b286a04bd040f246af1ac32fcc406b63756baa9c368
 ```
 
-### `dpkg` source package: `sqlite3=3.45.1-1ubuntu2.7`
+### `dpkg` source package: `sqlite3=3.45.1-1ubuntu2.8`
 
 Binary Packages:
 
-- `libsqlite3-0:amd64=3.45.1-1ubuntu2.7`
+- `libsqlite3-0:amd64=3.45.1-1ubuntu2.8`
 
 Licenses: (parsed from: `/usr/share/doc/libsqlite3-0/copyright`)
 
@@ -2123,9 +2133,15 @@ Licenses: (parsed from: `/usr/share/doc/libsqlite3-0/copyright`)
 - `GPL-2+`
 - `public-domain`
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris sqlite3=3.45.1-1ubuntu2.8
+'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.45.1.orig-www.tar.xz' sqlite3_3.45.1.orig-www.tar.xz 5693812 SHA512:dbbf32bad3912dca4d1d3366053c66dc53745d4e5c6892c10470b7452f338de03eee1406cb6c5a972c9890bd71a7b30563e4863f27bf0f2813a92ffdfd95832f
+'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.45.1.orig.tar.xz' sqlite3_3.45.1.orig.tar.xz 8257884 SHA512:8ea4a50fe730b072271978bbeee074d567bc8cbaa3bb4a8b8802e012d470fd482d800532eedea48a54fd64785f3b02aab7b033c8e2767a5e8b9f02a9cc844b80
+'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.45.1-1ubuntu2.8.debian.tar.xz' sqlite3_3.45.1-1ubuntu2.8.debian.tar.xz 37512 SHA512:3ff673e1dbdbea223c1ca984d9dc08877190eed0c40d5f33dae049b866ba57ed8ca59c87fa0dd634232c388edf48d088fa0e569319c4ee20fe1a63df0f047f35
+'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.45.1-1ubuntu2.8.dsc' sqlite3_3.45.1-1ubuntu2.8.dsc 2601 SHA512:8b492de28c699f0a0a32115b781cc9a6c2d8801992b907a41e5ed0642c3845a1688cbb9aee60ea9a4e8af436100f9f29dc8e6af0d75f8411d8b6a6b0ea99163a
+```
 
 ### `dpkg` source package: `systemd=255.4-1ubuntu8.17`
 
