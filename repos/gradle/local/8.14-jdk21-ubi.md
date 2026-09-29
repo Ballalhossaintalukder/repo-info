@@ -2,8 +2,8 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:3bc3eb97c62b934292b61eb19c8f1b477d52ff857c88355d3717fdbea201ec9a`
-- Created: `2026-09-22T19:12:49.008069547Z`
+- Image ID: `sha256:0452c3e4f4834032c94b70758bad11a80d5de92caa7878bc5ae0beb3507bb0d5`
+- Created: `2026-09-25T22:59:11.339394807Z`
 - Virtual Size: ~ 756.41 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
@@ -16,7 +16,7 @@
   - `LANG=en_US.UTF-8`
   - `LANGUAGE=en_US:en`
   - `LC_ALL=en_US.UTF-8`
-  - `JAVA_VERSION=jdk-21.0.12+8`
+  - `JAVA_VERSION=jdk-21.0.12.1+1`
   - `GRADLE_HOME=/opt/gradle`
   - `GRADLE_VERSION=8.14.5`
 - Labels:
@@ -358,12 +358,7 @@ https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/S
 
 Licenses (from `rpm --query`): MIT
 
-Source:
-
-```console
-$ dnf --quiet download --source --url expat-2.5.0-6.el9_8.3
-https://cdn-ubi.redhat.com/content/public/ubi/dist/ubi9/9/x86_64/baseos/source/SRPMS/Packages/e/expat-2.5.0-6.el9_8.3.src.rpm
-```
+**WARNING:** unable to find source (`dnf download` failed or returned no results)!
 
 ### `rpm` package: `file-libs-5.39-17.el9.x86_64`
 

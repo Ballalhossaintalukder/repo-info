@@ -2,9 +2,9 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:003f38934d53a96bc0f2a988e4e15ca81c9468d53a48b3427bce9b4699763311`
-- Created: `2026-09-24T19:35:32.729657525Z`
-- Virtual Size: ~ 602.22 Mb  
+- Image ID: `sha256:97a9597d6770cb0f86017213556ac0670c3abb2f7ecd55c62a88e525da287cc5`
+- Created: `2026-09-25T22:58:34.991390301Z`
+- Virtual Size: ~ 602.23 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Entrypoint: `["/__cacert_entrypoint.sh"]`
@@ -15,7 +15,7 @@
   - `LANG=en_US.UTF-8`
   - `LANGUAGE=en_US:en`
   - `LC_ALL=en_US.UTF-8`
-  - `JAVA_VERSION=jdk-26.0.2+10`
+  - `JAVA_VERSION=jdk-26.0.2.1+1`
   - `GRADLE_HOME=/opt/gradle`
   - `GRADLE_VERSION=9.8.0`
 
@@ -636,16 +636,16 @@ curl
 ### `apk` package: `libexpat`
 
 ```console
-libexpat-2.8.4-r0 description:
+libexpat-2.8.5-r0 description:
 XML Parser library written in C (libraries)
 
-libexpat-2.8.4-r0 webpage:
+libexpat-2.8.5-r0 webpage:
 https://libexpat.github.io/
 
-libexpat-2.8.4-r0 installed size:
+libexpat-2.8.5-r0 installed size:
 137 KiB
 
-libexpat-2.8.4-r0 license:
+libexpat-2.8.5-r0 license:
 MIT
 
 ```

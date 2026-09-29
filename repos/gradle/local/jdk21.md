@@ -2,9 +2,9 @@
 
 ## Docker Metadata
 
-- Image ID: `sha256:e0586e90623599faa984fb5a0cb943495e1774936c176cf6055907891159d0a1`
-- Created: `2026-09-24T19:33:18.94084857Z`
-- Virtual Size: ~ 854.25 Mb  
+- Image ID: `sha256:ebae3562958f8c0e880383467275b99e4e50e07752cebf83a20bbe90ae27aa42`
+- Created: `2026-09-25T22:57:47.351081108Z`
+- Virtual Size: ~ 852.85 Mb  
   (total size of all layers on-disk)
 - Arch: `linux`/`amd64`
 - Entrypoint: `["/__cacert_entrypoint.sh"]`
@@ -15,7 +15,7 @@
   - `LANG=en_US.UTF-8`
   - `LANGUAGE=en_US:en`
   - `LC_ALL=en_US.UTF-8`
-  - `JAVA_VERSION=jdk-21.0.12+8`
+  - `JAVA_VERSION=jdk-21.0.12.1+1`
   - `GRADLE_HOME=/opt/gradle`
   - `GRADLE_VERSION=9.8.0`
 - Labels:
@@ -712,11 +712,11 @@ $ apt-get source -qq --print-uris e2fsprogs=1.47.2-3ubuntu4
 'http://archive.ubuntu.com/ubuntu/pool/main/e/e2fsprogs/e2fsprogs_1.47.2-3ubuntu4.dsc' e2fsprogs_1.47.2-3ubuntu4.dsc 3044 SHA256:56bd049f448bc211a3a875a4baf35cf2a1eb082f13709426367d5a433166621c
 ```
 
-### `dpkg` source package: `expat=2.7.4-1`
+### `dpkg` source package: `expat=2.7.4-1ubuntu0.2`
 
 Binary Packages:
 
-- `libexpat1:amd64=2.7.4-1`
+- `libexpat1:amd64=2.7.4-1ubuntu0.2`
 
 Licenses: (parsed from: `/usr/share/doc/libexpat1/copyright`)
 
@@ -725,10 +725,10 @@ Licenses: (parsed from: `/usr/share/doc/libexpat1/copyright`)
 Source:
 
 ```console
-$ apt-get source -qq --print-uris expat=2.7.4-1
-'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.7.4-1.dsc' expat_2.7.4-1.dsc 1970 SHA256:2b8d94bbc4e830fb7268be91ff18dc24cfdc88608399311af85737cf360da3a0
-'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.7.4.orig.tar.gz' expat_2.7.4.orig.tar.gz 8448897 SHA256:5b356795b889d3e5b379433ece069b8781bf0727f6959ad3bbc9da0c22164f59
-'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.7.4-1.debian.tar.xz' expat_2.7.4-1.debian.tar.xz 13420 SHA256:d58d2cb39825e385b7063eca491ce1b34299b047bce45d9ef0b42666a289a9b0
+$ apt-get source -qq --print-uris expat=2.7.4-1ubuntu0.2
+'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.7.4.orig.tar.gz' expat_2.7.4.orig.tar.gz 8448897 SHA512:0e157ce875ec993b4e495e0cd04979109c1f0f0dbfa707c113d9b4ed243c668fce20e5ef79ff8df2f30587cc182a0254794b2fb9bb53f938da608ace32903820
+'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.7.4-1ubuntu0.2.debian.tar.xz' expat_2.7.4-1ubuntu0.2.debian.tar.xz 45356 SHA512:1bf182ebcaa1b693f5559cccd849ba9b9e3c4a30b81dae055b9662c722b5af2421fd022a160d5295fb195fad050546c697e35ec8ad36388674006b6646dab925
+'http://archive.ubuntu.com/ubuntu/pool/main/e/expat/expat_2.7.4-1ubuntu0.2.dsc' expat_2.7.4-1ubuntu0.2.dsc 1480 SHA512:838f8a6e59cec39179489ab892c6be84452eeea08841644f6156087867824d50668301aa4d08dc8ff0c8275709b9187990c3a45d358b339c911b95c52ad43dce
 ```
 
 ### `dpkg` source package: `findutils=4.10.0-3build2`
@@ -2765,11 +2765,11 @@ $ apt-get source -qq --print-uris shadow=1:4.17.4-2ubuntu3
 'http://archive.ubuntu.com/ubuntu/pool/main/s/shadow/shadow_4.17.4-2ubuntu3.dsc' shadow_4.17.4-2ubuntu3.dsc 2991 SHA256:5c7ebf6e7e9894c91df3474212a6e21bc5b6da82bbcef760bad495a0b5f48c87
 ```
 
-### `dpkg` source package: `sqlite3=3.46.1-9ubuntu0.2`
+### `dpkg` source package: `sqlite3=3.46.1-9ubuntu0.3`
 
 Binary Packages:
 
-- `libsqlite3-0:amd64=3.46.1-9ubuntu0.2`
+- `libsqlite3-0:amd64=3.46.1-9ubuntu0.3`
 
 Licenses: (parsed from: `/usr/share/doc/libsqlite3-0/copyright`)
 
@@ -2777,9 +2777,15 @@ Licenses: (parsed from: `/usr/share/doc/libsqlite3-0/copyright`)
 - `GPL-2+`
 - `public-domain`
 
-**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
-This is *usually* due to a new package version being released and the old version being removed.
+Source:
 
+```console
+$ apt-get source -qq --print-uris sqlite3=3.46.1-9ubuntu0.3
+'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.46.1.orig-www.tar.xz' sqlite3_3.46.1.orig-www.tar.xz 5861820 SHA512:a5ec0f57d014b2f33d679cfbae0ca1935eb84871376b29216ffcc286a92a363a823ca0ec729a000d702054ee90b2fcc1887c1fb4bebfabcd14894f8ef91b7ad6
+'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.46.1.orig.tar.xz' sqlite3_3.46.1.orig.tar.xz 8456776 SHA512:47d3c900d95641c89d5d807881e20e97f3b7889cf44c76d48715066ba5c1860defcd17498440d79bcc49b15c2ea28e81ed4b5b159f9e947941e5c1ee27de06ba
+'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.46.1-9ubuntu0.3.debian.tar.xz' sqlite3_3.46.1-9ubuntu0.3.debian.tar.xz 38312 SHA512:a35d6c8f81ae3b5d548ecc5529d8e333974605fd5c8c2bad587b325832d66cd2791a0353c4b697d2b6009026cedcc79e6c78db893a529dd435399c7f99960544
+'http://archive.ubuntu.com/ubuntu/pool/main/s/sqlite3/sqlite3_3.46.1-9ubuntu0.3.dsc' sqlite3_3.46.1-9ubuntu0.3.dsc 2756 SHA512:2f180c7497f1284f9c5f64d22b9c1781ea6266af6cd2b157478ab5a145f217db33f2d4b6c5d2fce0c5ceeef4528ebc582cd5c4c43c90d496c22a4e0184fe96a0
+```
 
 ### `dpkg` source package: `subversion=1.14.5-6build1`
 
