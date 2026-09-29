@@ -2086,14 +2086,9 @@ Licenses: (parsed from: `/usr/share/doc/libevent-2.1-7t64/copyright`, `/usr/shar
 - `ISC`
 - `curl`
 
-Source:
+**WARNING:** unable to find source (`apt-get source` failed or returned no results)!  
+This is *usually* due to a new package version being released and the old version being removed.
 
-```console
-$ apt-get source -qq --print-uris libevent=2.1.12-stable-9ubuntu2.1
-'http://archive.ubuntu.com/ubuntu/pool/main/libe/libevent/libevent_2.1.12-stable.orig.tar.gz' libevent_2.1.12-stable.orig.tar.gz 1100847 SHA512:88d8944cd75cbe78bc4e56a6741ca67c017a3686d5349100f1c74f8a68ac0b6410ce64dff160be4a4ba0696ee29540dfed59aaf3c9a02f0c164b00307fcfe84f
-'http://archive.ubuntu.com/ubuntu/pool/main/libe/libevent/libevent_2.1.12-stable-9ubuntu2.1.debian.tar.xz' libevent_2.1.12-stable-9ubuntu2.1.debian.tar.xz 23948 SHA512:e1680ac568746c93cd9ca2b2cff07684c128878ac518e2a2f011282b371b7a97ef1066173d51fff03c49ff214e861c0b4892d96959271d3a0823a19b610893d2
-'http://archive.ubuntu.com/ubuntu/pool/main/libe/libevent/libevent_2.1.12-stable-9ubuntu2.1.dsc' libevent_2.1.12-stable-9ubuntu2.1.dsc 2567 SHA512:4c9c8e6f88cde8b72a040710067ee9d184c0b4bc24076ea3e7c35195cd51eecacf3e512f20a3dae9a1aadc381df6a90431658bf8a74d40ad525b1cd54e2cbd64
-```
 
 ### `dpkg` source package: `libexif=0.6.24-1ubuntu0.24.04.1`
 
